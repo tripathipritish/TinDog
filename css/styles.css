@@ -52,7 +52,7 @@ p {
 
 .navbar-brand {
   font-family: "ubuntu";
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   font-weight: bold;
 }
 
@@ -156,7 +156,7 @@ p {
 
 
 
-@media (max-width:1100px) {
+@media (max-width:1240px) {
   #title{
     text-align: center;
   }
