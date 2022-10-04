@@ -32,14 +32,18 @@ p {
 .container-fluid {
   padding: 3% 15% 7%;
 }
+.main-image{
+    padding-top: 1px;
+    margin-left: 30px;
 
+    width:60%;
+    position: absolute;
+    right: 30%
+}
 .rotate {
-  padding-top: 1px;
+
   transform: rotate(25deg);
-  margin-left: 30px;
-  width: 60%;
-  position: absolute;
-  right: 30%
+
 }
 
 .title-image-container {
@@ -157,14 +161,18 @@ p {
 
 
 @media (max-width:1300px) {
+  .rotate {
+
+    transform:rotate(0);
+
+
+  }
+  .main-image{
+    position: static;
+    width: 60%;
+  }
   #title{
     text-align: center;
-  }
-  .rotate {
-    position: static;
-    transform:rotate(0);
-    width 75%;
-
   }
 
   .title-image-container {
